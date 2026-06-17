@@ -1,0 +1,62 @@
+
+/* *********** hero-section ************* */
+header .hero-section{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 7%;
+    gap: 4%;
+}
+
+header .hero-section .section-texts{
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+header .hero-section .section-texts h1{
+    font-size: clamp(30px , 3.7vw , 60px);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+header .hero-section .section-texts p{
+    font-size: clamp(14px , 2vw , 19px);
+    text-align: justify;
+}
+
+header .hero-section .section-texts .btn{
+    padding: 5px 15px;
+    background-color: #fac031;
+    border-radius: 3px;
+    transition: 0.3s;
+    border: none;
+    margin-top: 20px;
+}
+
+header .hero-section .section-texts .btn{
+    font-size: clamp(14px , 2vw , 19px);
+    text-decoration: none;
+    color: #fff;
+}
+
+header .hero-section .section-texts .btn:hover{
+    scale: 1.04;
+}
+
+header .hero-section .section-texts .btn:active{
+    scale: 1;
+}
+
+header .hero-section .section-texts h1 span{
+    color: #fac031;
+}
+
+header .hero-section .section-img{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}

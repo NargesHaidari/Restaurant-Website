@@ -1,0 +1,54 @@
+*{
+    font-family: vazirmatn;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-top: 80px;
+}
+
+/* ************************************* */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+/* ************************************* */
+h2{
+    font-size: clamp(27px , 3.3vw , 55px);
+    font-weight: 550;
+}
+h2 span{
+    color: #fac031;
+    display: inline-block;
+    position: relative;
+}
+h2 span::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0px;
+    background-color: #fac031;
+    transition: 0.2s linear;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    row-gap: 100px;
+}
+

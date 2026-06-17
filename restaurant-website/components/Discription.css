@@ -1,0 +1,92 @@
+
+
+/* social */
+.discriptions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.discriptions .dis-container{
+    display: flex;
+    gap: 2%;
+    padding: 0 13%;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.discriptions .dis-container .dis-card{
+    width: calc(94% / 4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    align-items: center;
+    padding: 1%;
+}
+
+.discriptions .dis-container .dis-card:hover .social{
+    opacity: 1;
+}
+
+.discriptions .dis-container .dis-card:hover .card-img{
+    transform: translateY(-40px);
+}
+
+.discriptions .dis-container .dis-card:hover h4{
+    transform: translateY(-35px);
+}
+
+.discriptions .dis-container .dis-card:hover .rate{
+    transform: translateY(-35px);
+}
+
+.discriptions .dis-container .dis-card:hover p{
+    transform: translateY(-20px);
+}
+
+.discriptions .dis-container .dis-card:hover .social{
+    transform: translateY(-25px);
+}
+
+
+.discriptions .dis-container .dis-card .card-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ccc;
+    transition: 0.3s;
+}
+
+.discriptions .dis-container .dis-card h4{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.discriptions .dis-container .dis-card .rate{
+    font-size: clamp(10px , 0.8vw , 15px);
+    color: #fac031;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+.discriptions .dis-container .dis-card .social{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.discriptions .dis-container .dis-card .social i{
+    font-size: clamp(10px , 0.8vw , 15px);
+}
+
+.discriptions .dis-container .dis-card p{
+    text-align: center;
+    font-size: clamp(12px , 1.95vw , 15px);
+    transition: 0.3s;
+}

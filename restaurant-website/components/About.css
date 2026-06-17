@@ -1,0 +1,31 @@
+
+.about{
+    width: 100%;
+    display: flex;
+    padding: 0 7%;
+    align-items: center;
+}
+
+.about .about-img{
+    flex: 1;
+}
+
+.about .about-texts{
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .about-texts h2{
+    margin-bottom: 40px;
+}
+
+.about .about-texts h3{
+    font-size: clamp(20px , 2.3vw , 45px);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about .about-texts p{
+    font-size: clamp(15px , 1.2vw , 25px);
+}

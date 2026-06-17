@@ -1,0 +1,82 @@
+header*/ 
+
+header{
+    width: 100%;
+}
+/* *********** header-navigation ************* */
+header .header-navigation{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+header .header-navigation .nav-img{
+    width: 8%;
+    min-width: 100px;
+    height: auto;
+    transition: 0.3s;
+}
+
+header .header-navigation .nav-list{
+    gap: 25px;
+    display: flex;
+    transition: 0.3s;
+    list-style-type: none;
+}
+
+header .header-navigation .nav-list li a{
+    text-decoration: none;
+    font-size: clamp(16px , 1.3vw , 19px);
+    font-weight: 500;
+    color: #000;
+    transition: 0.2s;
+    position: relative;
+}
+
+header .header-navigation .nav-list li a::after{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0px;
+    background-color: #fac031;
+    transition: 0.2s linear;
+}
+
+header .header-navigation .nav-list li:hover a{
+    color: #fac031;
+}
+
+header .header-navigation .nav-list li:hover a::after{
+    width: 100%;
+}
+
+header .header-navigation .nav-icons{
+    display: flex;
+    gap: 10px;
+}
+
+header .header-navigation .nav-icons i{
+    transition: 0.13s;
+}
+
+header .header-navigation .nav-icons i:hover{
+    color: #fac031;
+}
+
+header .header-navigation .nav-icons .menu-icon{
+    display: none;
+    transition: 0.3s;
+}
