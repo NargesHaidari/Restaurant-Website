@@ -46,8 +46,8 @@ The project currently includes a complete **static UI design** with the followin
 
 ## Responsive Design
 - Desktop layout is fully completed
-- Mobile and tablet responsiveness is currently **in progress**
-- Future updates will focus on improving cross-device experience
+- Mobile, tablet, and desktop responsiveness have been fully completed
+- UI is now fully optimized for all devices
 
 ---
 
@@ -56,7 +56,7 @@ The project currently includes a complete **static UI design** with the followin
 This project is currently in an **active development phase**:
 
 - UI design completed
-- Responsive design in progress
+- Fully responsive design completed
 - JavaScript functionality planned
 - Future enhancements and backend integration (optional)
 

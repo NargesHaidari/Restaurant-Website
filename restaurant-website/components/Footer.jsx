@@ -3,10 +3,10 @@ import './Footer.css'
 
 export default function Footer(){
     return (
-        <footer class="footer">
-            <div class="container">
+        <footer className="footer">
+            <div className="container">
 
-                <div class="section">
+                <div className="section">
                     <h3>Locations</h3>
                     <ul>
                         <li>Los Angeles</li>
@@ -17,7 +17,7 @@ export default function Footer(){
                     </ul>
                 </div>
 
-                <div class="section">
+                <div className="section">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#home">Home</a></li>
@@ -29,7 +29,7 @@ export default function Footer(){
                     </ul>
                 </div>
 
-                <div class="section">
+                <div className="section">
                     <h3>Contact</h3>
                     <ul>
                         <li>03101186716</li>
@@ -39,7 +39,7 @@ export default function Footer(){
                     </ul>
                 </div>
 
-                <div class="section">
+                <div className="third-section section">
                     <h3>Services</h3>
                     <ul>
                         <li>Fast Delivery</li>
@@ -48,23 +48,23 @@ export default function Footer(){
                     </ul>
                 </div>
 
-                <div class="last-footer-section section">
+                <div className="last-footer-section section">
                     <h3>Follow Us</h3>
                     <ul>
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-tiktok"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-x-twitter"></i>
+                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-tiktok"></i>
                     </ul>
                 </div>
 
-                <div class="text-end">Designed by <span><i class="fa-solid fa-circle-user"></i> WordPress Support</span></div>
+                <div className="text-end">Designed by <span><i className="fa-solid fa-circle-user"></i> WordPress Support</span></div>
 
-                <div class="social-footer-end">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-tiktok"></i>
+                <div className="social-footer-end">
+                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-x-twitter"></i>
+                    <i className="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-tiktok"></i>
                 </div>
 
             </div>

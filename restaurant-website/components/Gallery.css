@@ -16,11 +16,13 @@
     transition: 0.3s;
     row-gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery .gallery-container .gallery-card{
     width: calc(96% / 3);
-    height: 300px;
+    min-width: 300px;
+    height: 260px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
     display: flex;
@@ -88,4 +90,11 @@
     font-size: clamp(12px , 1.08vw , 30px);
     font-weight: 500;
     color: #000;
+}
+
+@media(max-width:350px){
+    .gallery .gallery-container .gallery-card{
+        min-width: 270px;
+        height: 220px;
+    }
 }

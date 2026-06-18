@@ -23,6 +23,7 @@
 
 .order .order-container .container-img{
     width: 45%;
+    min-width: 270px;
 }
 
 .order .order-container .form{
@@ -38,6 +39,7 @@
 
 .order .order-container .form div input{
     width: 100%;
+    min-width: 240px;
     height: auto;
     padding: 5px 10px;
     font-size: clamp(12px , 1vw , 20px);
@@ -64,4 +66,24 @@
 
 .record:active{
     scale: 1;
+}
+
+
+
+@media(max-width:768px){
+    .order .order-container .container-img{
+        width: 65%;
+    }
+    .order .order-container{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:550px){
+    .order .order-container .container-img{
+        width: 100%;
+    }
+    .order .order-container .form{
+        grid-template-columns: 1fr;
+    }
 }

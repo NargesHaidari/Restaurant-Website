@@ -20,6 +20,7 @@
 
 .team .team-container .section{
     width: calc((85% - 60px) / 4);
+    min-width: 230px;
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;

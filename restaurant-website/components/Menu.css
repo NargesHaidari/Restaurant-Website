@@ -13,10 +13,12 @@
     gap: 2%;
     flex-wrap: wrap;
     row-gap: 30px;
+    justify-content: center;
 }
 
 .menu-container .card{
     width: calc(91% / 4);
+    min-width: 270px;
     display: flex;
     flex-direction: column;
     padding: 0.8%;

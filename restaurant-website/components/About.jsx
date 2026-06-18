@@ -6,9 +6,9 @@ export default function About(){
     return (
         <div className="about" id="about"> 
 
-            <div className="about-img">
+            {/* <div className="about-img">
                 <img src={aboutImage} alt="food-image"/>
-            </div>
+            </div> */}
 
             <div className="about-texts">
                 <h2 className="h2"><span>About</span> Us</h2>
@@ -20,6 +20,10 @@ export default function About(){
                     <br/>- Fast and reliable home delivery service
                     <br/>- A calm and welcoming atmosphere for your special occasions
                 </p>
+            </div>
+
+            <div className="about-img">
+                <img src={aboutImage} alt="food-image"/>
             </div>
 
         </div>

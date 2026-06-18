@@ -24,8 +24,8 @@ header .hero-section .section-texts h1{
 }
 
 header .hero-section .section-texts p{
-    font-size: clamp(14px , 2vw , 19px);
-    text-align: justify;
+    font-size: clamp(16px , 2vw , 19px);
+    text-align: left;
 }
 
 header .hero-section .section-texts .btn{
@@ -59,4 +59,31 @@ header .hero-section .section-img{
     flex: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+
+@media(max-width:768px){
+    header .hero-section{
+        flex-direction: column;
+        align-items: flex-end;
+        /* gap: 2%; */
+    }
+    header .hero-section .section-img{
+        width: 50%;
+    }
+}
+
+@media(max-width:600px){
+    header .hero-section .section-img{
+        width: 80%;
+    }
+}
+
+@media(max-width:400px){
+    header .hero-section .section-texts h1{
+        font-size: 25px;
+    }
+    header .hero-section .section-img{
+        width: 100%;
+    }
 }

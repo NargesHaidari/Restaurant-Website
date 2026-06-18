@@ -27,8 +27,8 @@ header .header-navigation .nav-img{
 }
 
 header .header-navigation .nav-list{
-    gap: 25px;
     display: flex;
+    gap: 25px;
     transition: 0.3s;
     list-style-type: none;
 }
@@ -79,4 +79,13 @@ header .header-navigation .nav-icons i:hover{
 header .header-navigation .nav-icons .menu-icon{
     display: none;
     transition: 0.3s;
+}
+
+@media(max-width:950px){
+    header .header-navigation .nav-icons .menu-icon{
+        display: block;
+    }
+    header .header-navigation .nav-list{
+        display: none;
+    }
 }
