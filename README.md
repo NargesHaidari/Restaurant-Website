@@ -7,11 +7,14 @@ This project is part of a continuous frontend learning journey and will be impro
 ---
 
 ## 📁 Project Structure
+
+```text
 restaurant-project/
 │
-├── restaurant-website/
+├── restaurant-website
 │
 └── README.md
+```
 
 
 ---
@@ -87,13 +90,13 @@ Planned updates include:
 ## Screenshots
 
 ### Home Section
-![Home](assets/home.png)
+![Home](restaurant-website/src/assets/home.png)
 
 ### Menu Section
-![Menu](assets/menu.png)
+![Menu](restaurant-website/src/assets/menu.png)
 
-### Customer review
-![Customer reveiw](assets/customer-review.png)
+### Customer Review
+![Customer Review](restaurant-website/src/assets/customer-review.png)
 
 ---
 
