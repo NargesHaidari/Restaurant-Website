@@ -1,13 +1,13 @@
 import MenuCard from "./MenuCard";
 import './Menu.css'
-import meal1 from "../src/assets/meal1.png";
-import meal2 from "../src/assets/meal2.png";
-import meal3 from "../src/assets/meal3.jpg";
-import meal4 from "../src/assets/meal4.jpg";
-import meal5 from "../src/assets/meal5.jpg";
-import meal6 from "../src/assets/meal6.jpg";
-import meal7 from "../src/assets/meal7.jpg";
-import meal8 from "../src/assets/meal8.jpg";
+import meal1 from "../assets/meal1.png";
+import meal2 from "../assets/meal2.png";
+import meal3 from "../assets/meal3.jpg";
+import meal4 from "../assets/meal4.jpg";
+import meal5 from "../assets/meal5.jpg";
+import meal6 from "../assets/meal6.jpg";
+import meal7 from "../assets/meal7.jpg";
+import meal8 from "../assets/meal8.jpg";
 
 export default function Menu() {
   return (

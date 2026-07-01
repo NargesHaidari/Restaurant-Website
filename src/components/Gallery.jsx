@@ -1,12 +1,12 @@
 
 import GalleryCard from "./GalleryCard";
 import './Gallery.css'
-import gImg1 from '../src/assets/gImg1.png'
-import gImg2 from '../src/assets/gImg2.jpg'
-import gImg3 from '../src/assets/gImg3.jpg'
-import gImg4 from '../src/assets/gImg4.jpg'
-import gImg5 from '../src/assets/gImg5.jpg'
-import gImg6 from '../src/assets/gImg6.jpg'
+import gImg1 from '../assets/gImg1.png'
+import gImg2 from '../assets/gImg2.jpg'
+import gImg3 from '../assets/gImg3.jpg'
+import gImg4 from '../assets/gImg4.jpg'
+import gImg5 from '../assets/gImg5.jpg'
+import gImg6 from '../assets/gImg6.jpg'
 
 
 function Gallery() {

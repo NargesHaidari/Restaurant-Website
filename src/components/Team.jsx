@@ -1,10 +1,10 @@
 
 import './team.css'
 import TeamCard from "./TeamCard";
-import teamMem1 from '../src/assets/teamMem1.png'
-import teamMem2 from '../src/assets/teamMem2.png'
-import teamMem3 from '../src/assets/teamMem3.png'
-import teamMem4 from '../src/assets/teamMem4.png'
+import teamMem1 from '../assets/teamMem1.png'
+import teamMem2 from '../assets/teamMem2.png'
+import teamMem3 from '../assets/teamMem3.png'
+import teamMem4 from '../assets/teamMem4.png'
 
 export default function Team() {
     return (

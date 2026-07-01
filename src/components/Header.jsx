@@ -1,6 +1,6 @@
 
 import './Header.css'
-import foodLogo from '../src/assets/foodLogo.png'
+import foodLogo from '../assets/foodLogo.png'
 import HeroSection from './HeroSection'
 
 export default function Header(){

@@ -1,6 +1,6 @@
 
 import './Order.css'
-import orderImg from '../src/assets/orderImg.png'
+import orderImg from '../assets/orderImg.png'
 
 export default function Order() {
     return (

@@ -1,5 +1,5 @@
 
-import headerImage from '../src/assets/headerImage.png'
+import headerImage from '../assets/headerImage.png'
 import './HeroSection.css'
 
 export default function HeroSection(){

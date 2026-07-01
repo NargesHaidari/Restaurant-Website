@@ -10,10 +10,25 @@ This project is part of a continuous frontend learning journey and will be impro
 
 ```text
 restaurant-project/
-│
-├── restaurant-website
-│
-└── README.md
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Main.jsx
+│   │   ├── Footer.jsx
+│   │   └── ...
+│   ├── index.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
 ```
 
 

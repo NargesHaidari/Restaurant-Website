@@ -1,10 +1,10 @@
 
 import './Discription.css'
 import ReviewCard from "./ReviewCard";
-import user1 from '../src/assets/user1.jpg'
-import user2 from '../src/assets/user2.jpg'
-import user3 from '../src/assets/user3.jpg'
-import user4 from '../src/assets/user4.jpg'
+import user1 from '../assets/user1.jpg'
+import user2 from '../assets/user2.jpg'
+import user3 from '../assets/user3.jpg'
+import user4 from '../assets/user4.jpg'
 
 export default function Discription() {
   return (
