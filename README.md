@@ -105,13 +105,13 @@ Planned updates include:
 ## Screenshots
 
 ### Home Section
-![Home](restaurant-website/src/assets/home.png)
+![Home](src/assets/home.png)
 
 ### Menu Section
-![Menu](restaurant-website/src/assets/menu.png)
+![Menu](src/assets/menu.png)
 
 ### Customer Review
-![Customer Review](restaurant-website/src/assets/customer-review.png)
+![Customer Review](src/assets/customer-review.png)
 
 ---
 
